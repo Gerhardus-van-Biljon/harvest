@@ -1,0 +1,533 @@
+[0.000000] (-) TimerEvent: {}
+[0.001180] (harvest_description) JobQueued: {'identifier': 'harvest_description', 'dependencies': OrderedDict()}
+[0.001938] (harvest_ros2) JobQueued: {'identifier': 'harvest_ros2', 'dependencies': OrderedDict({'harvest_description': '/home/usernom-b/ros2_ws/install/harvest_description'})}
+[0.002048] (harvest_description) JobStarted: {'identifier': 'harvest_description'}
+[0.023653] (harvest_description) JobProgress: {'identifier': 'harvest_description', 'progress': 'cmake'}
+[0.026863] (harvest_description) Command: {'cmd': ['/usr/bin/cmake', '/home/usernom-b/ros2_ws/src/harvest_ros2/harvest_description', '-DCMAKE_INSTALL_PREFIX=/home/usernom-b/ros2_ws/install/harvest_description'], 'cwd': '/home/usernom-b/ros2_ws/build/harvest_description', 'env': OrderedDict({'GZ_SIM_SYSTEM_PLUGIN_PATH': '/opt/ros/jazzy/lib', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'usernom-b', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'GIT_ASKPASS': '/home/usernom-b/.vscode-server/bin/6d62b1d5dace93a33b3a6d3eca1317bd5e15bcb1/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LIBGL_ALWAYS_SOFTWARE': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/usernom-b', 'TERM_PROGRAM_VERSION': '1.142.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-28d13cb8-604c-4ab6-b132-ebe60166b4ab.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/usernom-b/.vscode-server/bin/6d62b1d5dace93a33b3a6d3eca1317bd5e15bcb1/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/usernom-b/.vscode-server/bin/6d62b1d5dace93a33b3a6d3eca1317bd5e15bcb1/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/usernom-b/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/usernom-b/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'usernom-b', 'NAME': 'NomB', 'WSL_INTEROP': '/run/WSL/393175_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/usernom-b/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/usernom-b/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/usernom-b/.vscode-server/bin/6d62b1d5dace93a33b3a6d3eca1317bd5e15bcb1/bin/remote-cli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/MATLAB/R2026a/runtime/win64:/mnt/c/Program Files/MATLAB/R2026a/bin:/mnt/c/Program Files/MATLAB/R2024b/runtime/win64:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/Program Files (x86)/CODESYS/APInstaller/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/user/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/user/AppData/Local/Programs/MiKTeX/miktex/bin/x64/:/mnt/c/Users/user/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/user/.dotnet/tools:/mnt/c/Users/user/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/user/AppData/Local/Python/bin:/mnt/c/Users/user/AppData/Local/Python/pythoncore-3.14-64/Scripts:/snap/bin:/home/usernom-b/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/usernom-b/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-87068f4572656cdc.txt', 'LANG': 'en_US.UTF-8', 'PYTHONSTARTUP': '/home/usernom-b/.vscode-server/data/User/workspaceStorage/94f6bef7284e6b2ce1c742338b38110a/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-c249cb9b7f.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/usernom-b/ros2_ws/install/harvest_ros2:/home/usernom-b/ros2_ws/install/harvest_description:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/usernom-b/ros2_ws/build/harvest_description', 'QT_QPA_PLATFORM': 'xcb', 'COPILOT_DEBUG_NONCE': '449170c97df805f704771790acae177a', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib/python:/opt/ros/jazzy/opt/sdformat_vendor/lib/python:/opt/ros/jazzy/opt/gz_transport_vendor/lib/python:/opt/ros/jazzy/opt/gz_msgs_vendor/lib/python:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'OGRE_RTT_MODE': 'Copy', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/usernom-b/ros2_ws/install/harvest_ros2:/home/usernom-b/ros2_ws/install/harvest_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up'}), 'shell': False}
+[0.099319] (-) TimerEvent: {}
+[0.200611] (-) TimerEvent: {}
+[0.301530] (-) TimerEvent: {}
+[0.340509] (harvest_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.401793] (-) TimerEvent: {}
+[0.502532] (-) TimerEvent: {}
+[0.603223] (-) TimerEvent: {}
+[0.704105] (-) TimerEvent: {}
+[0.804788] (-) TimerEvent: {}
+[0.905426] (-) TimerEvent: {}
+[1.006112] (-) TimerEvent: {}
+[1.106949] (-) TimerEvent: {}
+[1.207735] (-) TimerEvent: {}
+[1.308791] (-) TimerEvent: {}
+[1.409862] (-) TimerEvent: {}
+[1.510665] (-) TimerEvent: {}
+[1.611751] (-) TimerEvent: {}
+[1.713863] (-) TimerEvent: {}
+[1.781938] (harvest_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[1.814150] (-) TimerEvent: {}
+[1.915100] (-) TimerEvent: {}
+[2.016090] (-) TimerEvent: {}
+[2.116721] (-) TimerEvent: {}
+[2.217284] (-) TimerEvent: {}
+[2.317948] (-) TimerEvent: {}
+[2.418837] (-) TimerEvent: {}
+[2.520082] (-) TimerEvent: {}
+[2.621159] (-) TimerEvent: {}
+[2.722579] (-) TimerEvent: {}
+[2.823298] (-) TimerEvent: {}
+[2.924494] (-) TimerEvent: {}
+[3.025280] (-) TimerEvent: {}
+[3.126115] (-) TimerEvent: {}
+[3.226712] (-) TimerEvent: {}
+[3.327915] (-) TimerEvent: {}
+[3.342246] (harvest_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.428690] (-) TimerEvent: {}
+[3.530179] (-) TimerEvent: {}
+[3.631283] (-) TimerEvent: {}
+[3.731955] (-) TimerEvent: {}
+[3.832646] (-) TimerEvent: {}
+[3.934777] (-) TimerEvent: {}
+[3.987757] (harvest_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[4.008200] (harvest_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[4.009261] (harvest_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[4.010651] (harvest_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[4.035054] (-) TimerEvent: {}
+[4.135632] (-) TimerEvent: {}
+[4.235967] (harvest_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[4.236456] (-) TimerEvent: {}
+[4.336982] (-) TimerEvent: {}
+[4.437631] (-) TimerEvent: {}
+[4.538473] (-) TimerEvent: {}
+[4.639531] (-) TimerEvent: {}
+[4.740229] (-) TimerEvent: {}
+[4.831334] (harvest_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[4.840611] (-) TimerEvent: {}
+[4.851078] (harvest_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[4.851653] (harvest_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[4.852626] (harvest_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[4.862043] (harvest_description) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[4.941431] (-) TimerEvent: {}
+[5.042173] (-) TimerEvent: {}
+[5.142978] (-) TimerEvent: {}
+[5.231566] (harvest_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[5.243283] (-) TimerEvent: {}
+[5.343867] (-) TimerEvent: {}
+[5.444563] (-) TimerEvent: {}
+[5.541793] (harvest_description) StdoutLine: {'line': b'-- Found rclcpp: 28.1.22 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[5.544687] (-) TimerEvent: {}
+[5.645274] (-) TimerEvent: {}
+[5.745864] (-) TimerEvent: {}
+[5.846534] (-) TimerEvent: {}
+[5.947450] (-) TimerEvent: {}
+[5.985458] (harvest_description) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[6.022132] (harvest_description) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[6.047861] (-) TimerEvent: {}
+[6.066139] (harvest_description) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.116499] (harvest_description) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.148404] (-) TimerEvent: {}
+[6.249184] (-) TimerEvent: {}
+[6.329964] (harvest_description) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[6.338697] (harvest_description) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[6.349493] (-) TimerEvent: {}
+[6.450600] (-) TimerEvent: {}
+[6.541602] (harvest_description) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[6.550991] (-) TimerEvent: {}
+[6.651722] (-) TimerEvent: {}
+[6.752362] (-) TimerEvent: {}
+[6.853086] (-) TimerEvent: {}
+[6.953819] (-) TimerEvent: {}
+[7.032288] (harvest_description) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[7.054149] (-) TimerEvent: {}
+[7.154863] (-) TimerEvent: {}
+[7.255674] (-) TimerEvent: {}
+[7.335907] (harvest_description) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[7.356114] (-) TimerEvent: {}
+[7.456920] (-) TimerEvent: {}
+[7.557928] (-) TimerEvent: {}
+[7.658857] (-) TimerEvent: {}
+[7.759695] (-) TimerEvent: {}
+[7.860432] (-) TimerEvent: {}
+[7.956755] (harvest_description) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.8 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[7.960742] (-) TimerEvent: {}
+[8.061553] (-) TimerEvent: {}
+[8.118582] (harvest_description) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[8.161857] (-) TimerEvent: {}
+[8.262569] (-) TimerEvent: {}
+[8.363502] (-) TimerEvent: {}
+[8.392574] (harvest_description) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[8.393186] (harvest_description) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[8.395647] (harvest_description) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[8.397895] (harvest_description) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[8.402647] (harvest_description) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[8.407985] (harvest_description) StdoutLine: {'line': b'-- Configuring done (8.3s)\n'}
+[8.425582] (harvest_description) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[8.434492] (harvest_description) StdoutLine: {'line': b'-- Build files have been written to: /home/usernom-b/ros2_ws/build/harvest_description\n'}
+[8.454473] (harvest_description) CommandEnded: {'returncode': 0}
+[8.457801] (harvest_description) JobProgress: {'identifier': 'harvest_description', 'progress': 'build'}
+[8.458918] (harvest_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/usernom-b/ros2_ws/build/harvest_description', '--', '-j16', '-l16'], 'cwd': '/home/usernom-b/ros2_ws/build/harvest_description', 'env': OrderedDict({'GZ_SIM_SYSTEM_PLUGIN_PATH': '/opt/ros/jazzy/lib', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'usernom-b', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'GIT_ASKPASS': '/home/usernom-b/.vscode-server/bin/6d62b1d5dace93a33b3a6d3eca1317bd5e15bcb1/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LIBGL_ALWAYS_SOFTWARE': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/usernom-b', 'TERM_PROGRAM_VERSION': '1.142.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-28d13cb8-604c-4ab6-b132-ebe60166b4ab.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/usernom-b/.vscode-server/bin/6d62b1d5dace93a33b3a6d3eca1317bd5e15bcb1/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/usernom-b/.vscode-server/bin/6d62b1d5dace93a33b3a6d3eca1317bd5e15bcb1/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/usernom-b/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/usernom-b/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'usernom-b', 'NAME': 'NomB', 'WSL_INTEROP': '/run/WSL/393175_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/usernom-b/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/usernom-b/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/usernom-b/.vscode-server/bin/6d62b1d5dace93a33b3a6d3eca1317bd5e15bcb1/bin/remote-cli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/MATLAB/R2026a/runtime/win64:/mnt/c/Program Files/MATLAB/R2026a/bin:/mnt/c/Program Files/MATLAB/R2024b/runtime/win64:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/Program Files (x86)/CODESYS/APInstaller/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/user/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/user/AppData/Local/Programs/MiKTeX/miktex/bin/x64/:/mnt/c/Users/user/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/user/.dotnet/tools:/mnt/c/Users/user/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/user/AppData/Local/Python/bin:/mnt/c/Users/user/AppData/Local/Python/pythoncore-3.14-64/Scripts:/snap/bin:/home/usernom-b/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/usernom-b/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-87068f4572656cdc.txt', 'LANG': 'en_US.UTF-8', 'PYTHONSTARTUP': '/home/usernom-b/.vscode-server/data/User/workspaceStorage/94f6bef7284e6b2ce1c742338b38110a/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-c249cb9b7f.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/usernom-b/ros2_ws/install/harvest_ros2:/home/usernom-b/ros2_ws/install/harvest_description:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/usernom-b/ros2_ws/build/harvest_description', 'QT_QPA_PLATFORM': 'xcb', 'COPILOT_DEBUG_NONCE': '449170c97df805f704771790acae177a', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib/python:/opt/ros/jazzy/opt/sdformat_vendor/lib/python:/opt/ros/jazzy/opt/gz_transport_vendor/lib/python:/opt/ros/jazzy/opt/gz_msgs_vendor/lib/python:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'OGRE_RTT_MODE': 'Copy', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/usernom-b/ros2_ws/install/harvest_ros2:/home/usernom-b/ros2_ws/install/harvest_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up'}), 'shell': False}
+[8.463690] (-) TimerEvent: {}
+[8.551442] (harvest_description) CommandEnded: {'returncode': 0}
+[8.553550] (harvest_description) JobProgress: {'identifier': 'harvest_description', 'progress': 'install'}
+[8.563987] (-) TimerEvent: {}
+[8.574617] (harvest_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/usernom-b/ros2_ws/build/harvest_description'], 'cwd': '/home/usernom-b/ros2_ws/build/harvest_description', 'env': OrderedDict({'GZ_SIM_SYSTEM_PLUGIN_PATH': '/opt/ros/jazzy/lib', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'usernom-b', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'GIT_ASKPASS': '/home/usernom-b/.vscode-server/bin/6d62b1d5dace93a33b3a6d3eca1317bd5e15bcb1/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LIBGL_ALWAYS_SOFTWARE': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/usernom-b', 'TERM_PROGRAM_VERSION': '1.142.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-28d13cb8-604c-4ab6-b132-ebe60166b4ab.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/usernom-b/.vscode-server/bin/6d62b1d5dace93a33b3a6d3eca1317bd5e15bcb1/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/usernom-b/.vscode-server/bin/6d62b1d5dace93a33b3a6d3eca1317bd5e15bcb1/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/usernom-b/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/usernom-b/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'usernom-b', 'NAME': 'NomB', 'WSL_INTEROP': '/run/WSL/393175_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/usernom-b/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/usernom-b/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/usernom-b/.vscode-server/bin/6d62b1d5dace93a33b3a6d3eca1317bd5e15bcb1/bin/remote-cli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/MATLAB/R2026a/runtime/win64:/mnt/c/Program Files/MATLAB/R2026a/bin:/mnt/c/Program Files/MATLAB/R2024b/runtime/win64:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/Program Files (x86)/CODESYS/APInstaller/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/user/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/user/AppData/Local/Programs/MiKTeX/miktex/bin/x64/:/mnt/c/Users/user/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/user/.dotnet/tools:/mnt/c/Users/user/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/user/AppData/Local/Python/bin:/mnt/c/Users/user/AppData/Local/Python/pythoncore-3.14-64/Scripts:/snap/bin:/home/usernom-b/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/usernom-b/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-87068f4572656cdc.txt', 'LANG': 'en_US.UTF-8', 'PYTHONSTARTUP': '/home/usernom-b/.vscode-server/data/User/workspaceStorage/94f6bef7284e6b2ce1c742338b38110a/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-c249cb9b7f.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/usernom-b/ros2_ws/install/harvest_ros2:/home/usernom-b/ros2_ws/install/harvest_description:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/usernom-b/ros2_ws/build/harvest_description', 'QT_QPA_PLATFORM': 'xcb', 'COPILOT_DEBUG_NONCE': '449170c97df805f704771790acae177a', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib/python:/opt/ros/jazzy/opt/sdformat_vendor/lib/python:/opt/ros/jazzy/opt/gz_transport_vendor/lib/python:/opt/ros/jazzy/opt/gz_msgs_vendor/lib/python:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'OGRE_RTT_MODE': 'Copy', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/usernom-b/ros2_ws/install/harvest_ros2:/home/usernom-b/ros2_ws/install/harvest_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up'}), 'shell': False}
+[8.592972] (harvest_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.593843] (harvest_description) StdoutLine: {'line': b'-- Installing: /home/usernom-b/ros2_ws/install/harvest_description/share/harvest_description/launch\n'}
+[8.596867] (harvest_description) StdoutLine: {'line': b'-- Installing: /home/usernom-b/ros2_ws/install/harvest_description/share/harvest_description/launch/__pycache__\n'}
+[8.597683] (harvest_description) StdoutLine: {'line': b'-- Installing: /home/usernom-b/ros2_ws/install/harvest_description/share/harvest_description/launch/__pycache__/display.launch.cpython-312.pyc\n'}
+[8.598472] (harvest_description) StdoutLine: {'line': b'-- Installing: /home/usernom-b/ros2_ws/install/harvest_description/share/harvest_description/launch/__pycache__/gazebo.launch.cpython-312.pyc\n'}
+[8.598607] (harvest_description) StdoutLine: {'line': b'-- Installing: /home/usernom-b/ros2_ws/install/harvest_description/share/harvest_description/launch/display.launch.py\n'}
+[8.598951] (harvest_description) StdoutLine: {'line': b'-- Installing: /home/usernom-b/ros2_ws/install/harvest_description/share/harvest_description/launch/gazebo.launch.py\n'}
+[8.599597] (harvest_description) StdoutLine: {'line': b'-- Installing: /home/usernom-b/ros2_ws/install/harvest_description/share/harvest_description/urdf\n'}
+[8.599960] (harvest_description) StdoutLine: {'line': b'-- Installing: /home/usernom-b/ros2_ws/install/harvest_description/share/harvest_description/urdf/robots\n'}
+[8.600918] (harvest_description) StdoutLine: {'line': b'-- Installing: /home/usernom-b/ros2_ws/install/harvest_description/share/harvest_description/urdf/robots/harvest_full.urdf.xacro\n'}
+[8.601260] (harvest_description) StdoutLine: {'line': b'-- Installing: /home/usernom-b/ros2_ws/install/harvest_description/share/harvest_description/urdf/robot_utils.urdf.xacro\n'}
+[8.601428] (harvest_description) StdoutLine: {'line': b'-- Installing: /home/usernom-b/ros2_ws/install/harvest_description/share/harvest_description/urdf/mech\n'}
+[8.602417] (harvest_description) StdoutLine: {'line': b'-- Installing: /home/usernom-b/ros2_ws/install/harvest_description/share/harvest_description/urdf/mech/harvest_arm.urdf.xacro\n'}
+[8.602967] (harvest_description) StdoutLine: {'line': b'-- Installing: /home/usernom-b/ros2_ws/install/harvest_description/share/harvest_description/urdf/mech/soft_gripper.urdf.xacro\n'}
+[8.603658] (harvest_description) StdoutLine: {'line': b'-- Installing: /home/usernom-b/ros2_ws/install/harvest_description/share/harvest_description/urdf/mech/rail.urdf.xacro\n'}
+[8.603823] (harvest_description) StdoutLine: {'line': b'-- Installing: /home/usernom-b/ros2_ws/install/harvest_description/share/harvest_description/urdf/config\n'}
+[8.603940] (harvest_description) StdoutLine: {'line': b'-- Installing: /home/usernom-b/ros2_ws/install/harvest_description/share/harvest_description/urdf/config/robot_controllers.yaml\n'}
+[8.604044] (harvest_description) StdoutLine: {'line': b'-- Installing: /home/usernom-b/ros2_ws/install/harvest_description/share/harvest_description/rviz\n'}
+[8.604171] (harvest_description) StdoutLine: {'line': b'-- Installing: /home/usernom-b/ros2_ws/install/harvest_description/share/harvest_description/rviz/view_robot.rviz\n'}
+[8.604269] (harvest_description) StdoutLine: {'line': b'-- Installing: /home/usernom-b/ros2_ws/install/harvest_description/share/harvest_description/meshes\n'}
+[8.604469] (harvest_description) StdoutLine: {'line': b'-- Installing: /home/usernom-b/ros2_ws/install/harvest_description/share/harvest_description/meshes/cam_v2.gltf\n'}
+[8.604591] (harvest_description) StdoutLine: {'line': b'-- Installing: /home/usernom-b/ros2_ws/install/harvest_description/share/harvest_description/meshes/joint_to_joint.gltf\n'}
+[8.609435] (harvest_description) StdoutLine: {'line': b'-- Installing: /home/usernom-b/ros2_ws/install/harvest_description/share/harvest_description/meshes/base_to_link.gltf\n'}
+[8.612605] (harvest_description) StdoutLine: {'line': b'-- Installing: /home/usernom-b/ros2_ws/install/harvest_description/share/harvest_description/meshes/cycloidal_disk____0.gltf\n'}
+[8.614178] (harvest_description) StdoutLine: {'line': b'-- Installing: /home/usernom-b/ros2_ws/install/harvest_description/share/harvest_description/meshes/gearbox_housing.gltf\n'}
+[8.631697] (harvest_description) StdoutLine: {'line': b'-- Installing: /home/usernom-b/ros2_ws/install/harvest_description/share/harvest_description/meshes/bearing35_47_7_1.gltf\n'}
+[8.632579] (harvest_description) StdoutLine: {'line': b'-- Installing: /home/usernom-b/ros2_ws/install/harvest_description/share/harvest_description/meshes/cam_addapter.gltf\n'}
+[8.633183] (harvest_description) StdoutLine: {'line': b'-- Installing: /home/usernom-b/ros2_ws/install/harvest_description/share/harvest_description/meshes/external_housing.gltf\n'}
+[8.639868] (harvest_description) StdoutLine: {'line': b'-- Installing: /home/usernom-b/ros2_ws/install/harvest_description/share/harvest_description/meshes/bearing17_26_5_0.gltf\n'}
+[8.640434] (harvest_description) StdoutLine: {'line': b'-- Installing: /home/usernom-b/ros2_ws/install/harvest_description/share/harvest_description/meshes/nema17_smal.gltf\n'}
+[8.642857] (harvest_description) StdoutLine: {'line': b'-- Installing: /home/usernom-b/ros2_ws/install/harvest_description/share/harvest_description/meshes/inner_output_drive.gltf\n'}
+[8.644651] (harvest_description) StdoutLine: {'line': b'-- Installing: /home/usernom-b/ros2_ws/install/harvest_description/share/harvest_description/meshes/Part_4.gltf\n'}
+[8.647400] (harvest_description) StdoutLine: {'line': b'-- Installing: /home/usernom-b/ros2_ws/install/harvest_description/share/harvest_description/meshes/cycloidal_dis_balance.gltf\n'}
+[8.648881] (harvest_description) StdoutLine: {'line': b'-- Installing: /home/usernom-b/ros2_ws/install/harvest_description/share/harvest_description/meshes/bearing17_26_5_balance.gltf\n'}
+[8.649695] (harvest_description) StdoutLine: {'line': b'-- Installing: /home/usernom-b/ros2_ws/install/harvest_description/share/harvest_description/meshes/exterior_output_drive.gltf\n'}
+[8.652062] (harvest_description) StdoutLine: {'line': b'-- Installing: /home/usernom-b/ros2_ws/install/harvest_description/share/harvest_description/meshes/as5600_mount.gltf\n'}
+[8.653239] (harvest_description) StdoutLine: {'line': b'-- Installing: /home/usernom-b/ros2_ws/install/harvest_description/share/harvest_description/meshes/bearing35_47_7.gltf\n'}
+[8.653778] (harvest_description) StdoutLine: {'line': b'-- Installing: /home/usernom-b/ros2_ws/install/harvest_description/share/harvest_description/meshes/base_pcb_box.gltf\n'}
+[8.661446] (harvest_description) StdoutLine: {'line': b'-- Installing: /home/usernom-b/ros2_ws/install/harvest_description/share/ament_index/resource_index/package_run_dependencies/harvest_description\n'}
+[8.663610] (harvest_description) StdoutLine: {'line': b'-- Installing: /home/usernom-b/ros2_ws/install/harvest_description/share/ament_index/resource_index/parent_prefix_path/harvest_description\n'}
+[8.664192] (-) TimerEvent: {}
+[8.664765] (harvest_description) StdoutLine: {'line': b'-- Installing: /home/usernom-b/ros2_ws/install/harvest_description/share/harvest_description/environment/ament_prefix_path.sh\n'}
+[8.667226] (harvest_description) StdoutLine: {'line': b'-- Installing: /home/usernom-b/ros2_ws/install/harvest_description/share/harvest_description/environment/ament_prefix_path.dsv\n'}
+[8.667531] (harvest_description) StdoutLine: {'line': b'-- Installing: /home/usernom-b/ros2_ws/install/harvest_description/share/harvest_description/environment/path.sh\n'}
+[8.667734] (harvest_description) StdoutLine: {'line': b'-- Installing: /home/usernom-b/ros2_ws/install/harvest_description/share/harvest_description/environment/path.dsv\n'}
+[8.667925] (harvest_description) StdoutLine: {'line': b'-- Installing: /home/usernom-b/ros2_ws/install/harvest_description/share/harvest_description/local_setup.bash\n'}
+[8.668476] (harvest_description) StdoutLine: {'line': b'-- Installing: /home/usernom-b/ros2_ws/install/harvest_description/share/harvest_description/local_setup.sh\n'}
+[8.669192] (harvest_description) StdoutLine: {'line': b'-- Installing: /home/usernom-b/ros2_ws/install/harvest_description/share/harvest_description/local_setup.zsh\n'}
+[8.669497] (harvest_description) StdoutLine: {'line': b'-- Installing: /home/usernom-b/ros2_ws/install/harvest_description/share/harvest_description/local_setup.dsv\n'}
+[8.670068] (harvest_description) StdoutLine: {'line': b'-- Installing: /home/usernom-b/ros2_ws/install/harvest_description/share/harvest_description/package.dsv\n'}
+[8.670748] (harvest_description) StdoutLine: {'line': b'-- Installing: /home/usernom-b/ros2_ws/install/harvest_description/share/ament_index/resource_index/packages/harvest_description\n'}
+[8.671585] (harvest_description) StdoutLine: {'line': b'-- Installing: /home/usernom-b/ros2_ws/install/harvest_description/share/harvest_description/cmake/harvest_descriptionConfig.cmake\n'}
+[8.671858] (harvest_description) StdoutLine: {'line': b'-- Installing: /home/usernom-b/ros2_ws/install/harvest_description/share/harvest_description/cmake/harvest_descriptionConfig-version.cmake\n'}
+[8.672226] (harvest_description) StdoutLine: {'line': b'-- Installing: /home/usernom-b/ros2_ws/install/harvest_description/share/harvest_description/package.xml\n'}
+[8.676130] (harvest_description) CommandEnded: {'returncode': 0}
+[8.726004] (harvest_description) JobEnded: {'identifier': 'harvest_description', 'rc': 0}
+[8.729078] (harvest_ros2) JobStarted: {'identifier': 'harvest_ros2'}
+[8.764497] (-) TimerEvent: {}
+[8.865603] (harvest_ros2) JobProgress: {'identifier': 'harvest_ros2', 'progress': 'cmake'}
+[8.865967] (-) TimerEvent: {}
+[8.868701] (harvest_ros2) Command: {'cmd': ['/usr/bin/cmake', '/home/usernom-b/ros2_ws/src/harvest_ros2/harvest_ros2', '-DCMAKE_INSTALL_PREFIX=/home/usernom-b/ros2_ws/install/harvest_ros2'], 'cwd': '/home/usernom-b/ros2_ws/build/harvest_ros2', 'env': OrderedDict({'GZ_SIM_SYSTEM_PLUGIN_PATH': '/opt/ros/jazzy/lib', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'usernom-b', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'GIT_ASKPASS': '/home/usernom-b/.vscode-server/bin/6d62b1d5dace93a33b3a6d3eca1317bd5e15bcb1/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LIBGL_ALWAYS_SOFTWARE': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/usernom-b', 'TERM_PROGRAM_VERSION': '1.142.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-28d13cb8-604c-4ab6-b132-ebe60166b4ab.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/usernom-b/.vscode-server/bin/6d62b1d5dace93a33b3a6d3eca1317bd5e15bcb1/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/usernom-b/.vscode-server/bin/6d62b1d5dace93a33b3a6d3eca1317bd5e15bcb1/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/usernom-b/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/usernom-b/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'usernom-b', 'NAME': 'NomB', 'WSL_INTEROP': '/run/WSL/393175_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/usernom-b/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/usernom-b/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/usernom-b/.vscode-server/bin/6d62b1d5dace93a33b3a6d3eca1317bd5e15bcb1/bin/remote-cli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/MATLAB/R2026a/runtime/win64:/mnt/c/Program Files/MATLAB/R2026a/bin:/mnt/c/Program Files/MATLAB/R2024b/runtime/win64:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/Program Files (x86)/CODESYS/APInstaller/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/user/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/user/AppData/Local/Programs/MiKTeX/miktex/bin/x64/:/mnt/c/Users/user/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/user/.dotnet/tools:/mnt/c/Users/user/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/user/AppData/Local/Python/bin:/mnt/c/Users/user/AppData/Local/Python/pythoncore-3.14-64/Scripts:/snap/bin:/home/usernom-b/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/usernom-b/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-87068f4572656cdc.txt', 'LANG': 'en_US.UTF-8', 'PYTHONSTARTUP': '/home/usernom-b/.vscode-server/data/User/workspaceStorage/94f6bef7284e6b2ce1c742338b38110a/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-c249cb9b7f.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/usernom-b/ros2_ws/install/harvest_ros2:/home/usernom-b/ros2_ws/install/harvest_description:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/usernom-b/ros2_ws/build/harvest_ros2', 'QT_QPA_PLATFORM': 'xcb', 'COPILOT_DEBUG_NONCE': '449170c97df805f704771790acae177a', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib/python:/opt/ros/jazzy/opt/sdformat_vendor/lib/python:/opt/ros/jazzy/opt/gz_transport_vendor/lib/python:/opt/ros/jazzy/opt/gz_msgs_vendor/lib/python:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'OGRE_RTT_MODE': 'Copy', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/usernom-b/ros2_ws/install/harvest_description:/home/usernom-b/ros2_ws/install/harvest_ros2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up'}), 'shell': False}
+[8.966293] (-) TimerEvent: {}
+[9.067115] (-) TimerEvent: {}
+[9.167697] (-) TimerEvent: {}
+[9.218408] (harvest_ros2) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[9.267969] (-) TimerEvent: {}
+[9.368814] (-) TimerEvent: {}
+[9.469370] (-) TimerEvent: {}
+[9.569979] (-) TimerEvent: {}
+[9.670722] (-) TimerEvent: {}
+[9.771279] (-) TimerEvent: {}
+[9.871863] (-) TimerEvent: {}
+[9.972469] (-) TimerEvent: {}
+[10.073043] (-) TimerEvent: {}
+[10.173686] (-) TimerEvent: {}
+[10.274569] (-) TimerEvent: {}
+[10.375258] (-) TimerEvent: {}
+[10.475827] (-) TimerEvent: {}
+[10.576600] (-) TimerEvent: {}
+[10.677491] (-) TimerEvent: {}
+[10.709704] (harvest_ros2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[10.777813] (-) TimerEvent: {}
+[10.878529] (-) TimerEvent: {}
+[10.979101] (-) TimerEvent: {}
+[11.079639] (-) TimerEvent: {}
+[11.180280] (-) TimerEvent: {}
+[11.281039] (-) TimerEvent: {}
+[11.381732] (-) TimerEvent: {}
+[11.482336] (-) TimerEvent: {}
+[11.583058] (-) TimerEvent: {}
+[11.683746] (-) TimerEvent: {}
+[11.784505] (-) TimerEvent: {}
+[11.885094] (-) TimerEvent: {}
+[11.985903] (-) TimerEvent: {}
+[12.086546] (-) TimerEvent: {}
+[12.154132] (harvest_ros2) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[12.186809] (-) TimerEvent: {}
+[12.287384] (-) TimerEvent: {}
+[12.387966] (-) TimerEvent: {}
+[12.488647] (-) TimerEvent: {}
+[12.589462] (-) TimerEvent: {}
+[12.690131] (-) TimerEvent: {}
+[12.748936] (harvest_ros2) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[12.768620] (harvest_ros2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[12.769551] (harvest_ros2) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[12.770112] (harvest_ros2) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[12.790345] (-) TimerEvent: {}
+[12.891004] (-) TimerEvent: {}
+[12.991605] (-) TimerEvent: {}
+[13.004574] (harvest_ros2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[13.091747] (-) TimerEvent: {}
+[13.192298] (-) TimerEvent: {}
+[13.293085] (-) TimerEvent: {}
+[13.393624] (-) TimerEvent: {}
+[13.494263] (-) TimerEvent: {}
+[13.595359] (-) TimerEvent: {}
+[13.651360] (harvest_ros2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[13.671724] (harvest_ros2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[13.673343] (harvest_ros2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[13.674567] (harvest_ros2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[13.682484] (harvest_ros2) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[13.695558] (-) TimerEvent: {}
+[13.796188] (-) TimerEvent: {}
+[13.896776] (-) TimerEvent: {}
+[13.997301] (-) TimerEvent: {}
+[14.042519] (harvest_ros2) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[14.097683] (-) TimerEvent: {}
+[14.198299] (-) TimerEvent: {}
+[14.299083] (-) TimerEvent: {}
+[14.326648] (harvest_ros2) StdoutLine: {'line': b'-- Found rclcpp: 28.1.22 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[14.399275] (-) TimerEvent: {}
+[14.499796] (-) TimerEvent: {}
+[14.600434] (-) TimerEvent: {}
+[14.700991] (-) TimerEvent: {}
+[14.801550] (-) TimerEvent: {}
+[14.822654] (harvest_ros2) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[14.864282] (harvest_ros2) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[14.901719] (-) TimerEvent: {}
+[14.908743] (harvest_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[14.959369] (harvest_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[15.002023] (-) TimerEvent: {}
+[15.102684] (-) TimerEvent: {}
+[15.172417] (harvest_ros2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[15.182192] (harvest_ros2) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[15.202926] (-) TimerEvent: {}
+[15.303768] (-) TimerEvent: {}
+[15.389253] (harvest_ros2) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[15.403975] (-) TimerEvent: {}
+[15.504508] (-) TimerEvent: {}
+[15.605234] (-) TimerEvent: {}
+[15.705786] (-) TimerEvent: {}
+[15.806333] (-) TimerEvent: {}
+[15.859729] (harvest_ros2) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[15.906546] (-) TimerEvent: {}
+[16.007200] (-) TimerEvent: {}
+[16.107775] (-) TimerEvent: {}
+[16.132678] (harvest_ros2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[16.208095] (-) TimerEvent: {}
+[16.308797] (-) TimerEvent: {}
+[16.409325] (-) TimerEvent: {}
+[16.509928] (-) TimerEvent: {}
+[16.609943] (harvest_ros2) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.8 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[16.610399] (-) TimerEvent: {}
+[16.710805] (-) TimerEvent: {}
+[16.757479] (harvest_ros2) StdoutLine: {'line': b'-- Found trajectory_msgs: 5.3.8 (/opt/ros/jazzy/share/trajectory_msgs/cmake)\n'}
+[16.810992] (-) TimerEvent: {}
+[16.911619] (-) TimerEvent: {}
+[17.014156] (-) TimerEvent: {}
+[17.017614] (harvest_ros2) StdoutLine: {'line': b'-- Configuring done (8.1s)\n'}
+[17.059814] (harvest_ros2) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[17.071749] (harvest_ros2) StdoutLine: {'line': b'-- Build files have been written to: /home/usernom-b/ros2_ws/build/harvest_ros2\n'}
+[17.092497] (harvest_ros2) CommandEnded: {'returncode': 0}
+[17.094896] (harvest_ros2) JobProgress: {'identifier': 'harvest_ros2', 'progress': 'build'}
+[17.095676] (harvest_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/usernom-b/ros2_ws/build/harvest_ros2', '--', '-j16', '-l16'], 'cwd': '/home/usernom-b/ros2_ws/build/harvest_ros2', 'env': OrderedDict({'GZ_SIM_SYSTEM_PLUGIN_PATH': '/opt/ros/jazzy/lib', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'usernom-b', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'GIT_ASKPASS': '/home/usernom-b/.vscode-server/bin/6d62b1d5dace93a33b3a6d3eca1317bd5e15bcb1/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LIBGL_ALWAYS_SOFTWARE': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/usernom-b', 'TERM_PROGRAM_VERSION': '1.142.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-28d13cb8-604c-4ab6-b132-ebe60166b4ab.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/usernom-b/.vscode-server/bin/6d62b1d5dace93a33b3a6d3eca1317bd5e15bcb1/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/usernom-b/.vscode-server/bin/6d62b1d5dace93a33b3a6d3eca1317bd5e15bcb1/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/usernom-b/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/usernom-b/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'usernom-b', 'NAME': 'NomB', 'WSL_INTEROP': '/run/WSL/393175_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/usernom-b/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/usernom-b/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/usernom-b/.vscode-server/bin/6d62b1d5dace93a33b3a6d3eca1317bd5e15bcb1/bin/remote-cli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/MATLAB/R2026a/runtime/win64:/mnt/c/Program Files/MATLAB/R2026a/bin:/mnt/c/Program Files/MATLAB/R2024b/runtime/win64:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/Program Files (x86)/CODESYS/APInstaller/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/user/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/user/AppData/Local/Programs/MiKTeX/miktex/bin/x64/:/mnt/c/Users/user/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/user/.dotnet/tools:/mnt/c/Users/user/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/user/AppData/Local/Python/bin:/mnt/c/Users/user/AppData/Local/Python/pythoncore-3.14-64/Scripts:/snap/bin:/home/usernom-b/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/usernom-b/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-87068f4572656cdc.txt', 'LANG': 'en_US.UTF-8', 'PYTHONSTARTUP': '/home/usernom-b/.vscode-server/data/User/workspaceStorage/94f6bef7284e6b2ce1c742338b38110a/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-c249cb9b7f.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/usernom-b/ros2_ws/install/harvest_ros2:/home/usernom-b/ros2_ws/install/harvest_description:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/usernom-b/ros2_ws/build/harvest_ros2', 'QT_QPA_PLATFORM': 'xcb', 'COPILOT_DEBUG_NONCE': '449170c97df805f704771790acae177a', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib/python:/opt/ros/jazzy/opt/sdformat_vendor/lib/python:/opt/ros/jazzy/opt/gz_transport_vendor/lib/python:/opt/ros/jazzy/opt/gz_msgs_vendor/lib/python:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'OGRE_RTT_MODE': 'Copy', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/usernom-b/ros2_ws/install/harvest_description:/home/usernom-b/ros2_ws/install/harvest_ros2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up'}), 'shell': False}
+[17.114503] (-) TimerEvent: {}
+[17.213283] (harvest_ros2) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/ik_node.dir/src/kinematics_nodes/ik_node.cpp.o\x1b[0m\n'}
+[17.214360] (harvest_ros2) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/fk_node.dir/src/kinematics_nodes/fk_node.cpp.o\x1b[0m\n'}
+[17.214587] (-) TimerEvent: {}
+[17.315031] (-) TimerEvent: {}
+[17.415657] (-) TimerEvent: {}
+[17.516147] (-) TimerEvent: {}
+[17.616758] (-) TimerEvent: {}
+[17.717432] (-) TimerEvent: {}
+[17.818424] (-) TimerEvent: {}
+[17.918961] (-) TimerEvent: {}
+[18.019519] (-) TimerEvent: {}
+[18.120413] (-) TimerEvent: {}
+[18.221203] (-) TimerEvent: {}
+[18.321977] (-) TimerEvent: {}
+[18.422784] (-) TimerEvent: {}
+[18.523552] (-) TimerEvent: {}
+[18.624391] (-) TimerEvent: {}
+[18.725029] (-) TimerEvent: {}
+[18.825711] (-) TimerEvent: {}
+[18.926547] (-) TimerEvent: {}
+[19.027270] (-) TimerEvent: {}
+[19.128090] (-) TimerEvent: {}
+[19.229114] (-) TimerEvent: {}
+[19.329961] (-) TimerEvent: {}
+[19.430606] (-) TimerEvent: {}
+[19.531175] (-) TimerEvent: {}
+[19.631748] (-) TimerEvent: {}
+[19.732456] (-) TimerEvent: {}
+[19.833069] (-) TimerEvent: {}
+[19.933756] (-) TimerEvent: {}
+[20.034450] (-) TimerEvent: {}
+[20.135099] (-) TimerEvent: {}
+[20.235731] (-) TimerEvent: {}
+[20.338007] (-) TimerEvent: {}
+[20.438787] (-) TimerEvent: {}
+[20.539371] (-) TimerEvent: {}
+[20.639952] (-) TimerEvent: {}
+[20.740573] (-) TimerEvent: {}
+[20.841157] (-) TimerEvent: {}
+[20.941792] (-) TimerEvent: {}
+[21.042492] (-) TimerEvent: {}
+[21.143181] (-) TimerEvent: {}
+[21.243950] (-) TimerEvent: {}
+[21.344672] (-) TimerEvent: {}
+[21.445199] (-) TimerEvent: {}
+[21.545765] (-) TimerEvent: {}
+[21.646381] (-) TimerEvent: {}
+[21.747069] (-) TimerEvent: {}
+[21.847803] (-) TimerEvent: {}
+[21.948504] (-) TimerEvent: {}
+[22.049229] (-) TimerEvent: {}
+[22.149815] (-) TimerEvent: {}
+[22.250506] (-) TimerEvent: {}
+[22.351192] (-) TimerEvent: {}
+[22.451879] (-) TimerEvent: {}
+[22.552703] (-) TimerEvent: {}
+[22.653347] (-) TimerEvent: {}
+[22.753880] (-) TimerEvent: {}
+[22.854457] (-) TimerEvent: {}
+[22.955078] (-) TimerEvent: {}
+[23.055713] (-) TimerEvent: {}
+[23.156295] (-) TimerEvent: {}
+[23.256891] (-) TimerEvent: {}
+[23.357483] (-) TimerEvent: {}
+[23.458134] (-) TimerEvent: {}
+[23.558750] (-) TimerEvent: {}
+[23.659429] (-) TimerEvent: {}
+[23.760137] (-) TimerEvent: {}
+[23.860754] (-) TimerEvent: {}
+[23.961355] (-) TimerEvent: {}
+[24.061943] (-) TimerEvent: {}
+[24.162517] (-) TimerEvent: {}
+[24.263098] (-) TimerEvent: {}
+[24.363714] (-) TimerEvent: {}
+[24.464245] (-) TimerEvent: {}
+[24.564871] (-) TimerEvent: {}
+[24.665551] (-) TimerEvent: {}
+[24.766130] (-) TimerEvent: {}
+[24.866815] (-) TimerEvent: {}
+[24.967465] (-) TimerEvent: {}
+[25.068016] (-) TimerEvent: {}
+[25.168698] (-) TimerEvent: {}
+[25.269296] (-) TimerEvent: {}
+[25.369894] (-) TimerEvent: {}
+[25.470491] (-) TimerEvent: {}
+[25.571118] (-) TimerEvent: {}
+[25.671921] (-) TimerEvent: {}
+[25.772584] (-) TimerEvent: {}
+[25.873220] (-) TimerEvent: {}
+[25.973863] (-) TimerEvent: {}
+[26.074507] (-) TimerEvent: {}
+[26.175057] (-) TimerEvent: {}
+[26.275649] (-) TimerEvent: {}
+[26.376260] (-) TimerEvent: {}
+[26.476943] (-) TimerEvent: {}
+[26.577542] (-) TimerEvent: {}
+[26.678250] (-) TimerEvent: {}
+[26.778884] (-) TimerEvent: {}
+[26.879564] (-) TimerEvent: {}
+[26.980436] (-) TimerEvent: {}
+[27.081048] (-) TimerEvent: {}
+[27.181638] (-) TimerEvent: {}
+[27.282196] (-) TimerEvent: {}
+[27.382734] (-) TimerEvent: {}
+[27.483403] (-) TimerEvent: {}
+[27.584045] (-) TimerEvent: {}
+[27.684693] (-) TimerEvent: {}
+[27.785430] (-) TimerEvent: {}
+[27.886220] (-) TimerEvent: {}
+[27.986978] (-) TimerEvent: {}
+[28.087688] (-) TimerEvent: {}
+[28.188415] (-) TimerEvent: {}
+[28.289202] (-) TimerEvent: {}
+[28.389742] (-) TimerEvent: {}
+[28.490297] (-) TimerEvent: {}
+[28.590855] (-) TimerEvent: {}
+[28.691632] (-) TimerEvent: {}
+[28.792297] (-) TimerEvent: {}
+[28.893006] (-) TimerEvent: {}
+[28.993672] (-) TimerEvent: {}
+[29.094300] (-) TimerEvent: {}
+[29.195075] (-) TimerEvent: {}
+[29.295865] (-) TimerEvent: {}
+[29.396688] (-) TimerEvent: {}
+[29.497474] (-) TimerEvent: {}
+[29.598143] (-) TimerEvent: {}
+[29.698928] (-) TimerEvent: {}
+[29.799648] (-) TimerEvent: {}
+[29.900268] (-) TimerEvent: {}
+[30.001310] (-) TimerEvent: {}
+[30.102192] (-) TimerEvent: {}
+[30.202910] (-) TimerEvent: {}
+[30.303604] (-) TimerEvent: {}
+[30.404257] (-) TimerEvent: {}
+[30.505046] (-) TimerEvent: {}
+[30.605845] (-) TimerEvent: {}
+[30.706579] (-) TimerEvent: {}
+[30.807453] (-) TimerEvent: {}
+[30.908250] (-) TimerEvent: {}
+[31.008820] (-) TimerEvent: {}
+[31.110987] (-) TimerEvent: {}
+[31.213189] (-) TimerEvent: {}
+[31.314863] (-) TimerEvent: {}
+[31.416381] (-) TimerEvent: {}
+[31.518494] (-) TimerEvent: {}
+[31.620695] (-) TimerEvent: {}
+[31.721364] (-) TimerEvent: {}
+[31.822246] (-) TimerEvent: {}
+[31.924522] (-) TimerEvent: {}
+[32.025567] (-) TimerEvent: {}
+[32.126755] (-) TimerEvent: {}
+[32.228413] (-) TimerEvent: {}
+[32.330046] (-) TimerEvent: {}
+[32.431985] (-) TimerEvent: {}
+[32.533808] (-) TimerEvent: {}
+[32.635652] (-) TimerEvent: {}
+[32.737483] (-) TimerEvent: {}
+[32.839317] (-) TimerEvent: {}
+[32.941101] (-) TimerEvent: {}
+[33.042952] (-) TimerEvent: {}
+[33.144656] (-) TimerEvent: {}
+[33.245446] (-) TimerEvent: {}
+[33.347085] (-) TimerEvent: {}
+[33.448683] (-) TimerEvent: {}
+[33.550398] (-) TimerEvent: {}
+[33.652076] (-) TimerEvent: {}
+[33.753770] (-) TimerEvent: {}
+[33.855504] (-) TimerEvent: {}
+[33.956940] (-) TimerEvent: {}
+[34.058411] (-) TimerEvent: {}
+[34.159108] (-) TimerEvent: {}
+[34.260031] (-) TimerEvent: {}
+[34.361022] (-) TimerEvent: {}
+[34.461825] (-) TimerEvent: {}
+[34.563222] (-) TimerEvent: {}
+[34.664733] (-) TimerEvent: {}
+[34.766132] (-) TimerEvent: {}
+[34.867555] (-) TimerEvent: {}
+[34.969054] (-) TimerEvent: {}
+[35.070248] (-) TimerEvent: {}
+[35.171633] (-) TimerEvent: {}
+[35.272566] (-) TimerEvent: {}
+[35.373489] (-) TimerEvent: {}
+[35.474866] (-) TimerEvent: {}
+[35.576776] (-) TimerEvent: {}
+[35.678142] (-) TimerEvent: {}
+[35.779479] (-) TimerEvent: {}
+[35.818670] (harvest_ros2) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable fk_node\x1b[0m\n'}
+[35.853684] (harvest_ros2) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable ik_node\x1b[0m\n'}
+[35.879861] (-) TimerEvent: {}
+[35.981008] (-) TimerEvent: {}
+[36.081844] (-) TimerEvent: {}
+[36.182811] (-) TimerEvent: {}
+[36.283782] (-) TimerEvent: {}
+[36.384681] (-) TimerEvent: {}
+[36.485782] (-) TimerEvent: {}
+[36.586874] (-) TimerEvent: {}
+[36.687968] (-) TimerEvent: {}
+[36.698320] (harvest_ros2) StdoutLine: {'line': b'[100%] Built target fk_node\n'}
+[36.733902] (harvest_ros2) StdoutLine: {'line': b'[100%] Built target ik_node\n'}
+[36.760270] (harvest_ros2) CommandEnded: {'returncode': 0}
+[36.762513] (harvest_ros2) JobProgress: {'identifier': 'harvest_ros2', 'progress': 'install'}
+[36.763065] (harvest_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/usernom-b/ros2_ws/build/harvest_ros2'], 'cwd': '/home/usernom-b/ros2_ws/build/harvest_ros2', 'env': OrderedDict({'GZ_SIM_SYSTEM_PLUGIN_PATH': '/opt/ros/jazzy/lib', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'usernom-b', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'GIT_ASKPASS': '/home/usernom-b/.vscode-server/bin/6d62b1d5dace93a33b3a6d3eca1317bd5e15bcb1/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LIBGL_ALWAYS_SOFTWARE': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/usernom-b', 'TERM_PROGRAM_VERSION': '1.142.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-28d13cb8-604c-4ab6-b132-ebe60166b4ab.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/usernom-b/.vscode-server/bin/6d62b1d5dace93a33b3a6d3eca1317bd5e15bcb1/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/usernom-b/.vscode-server/bin/6d62b1d5dace93a33b3a6d3eca1317bd5e15bcb1/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/usernom-b/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/usernom-b/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'usernom-b', 'NAME': 'NomB', 'WSL_INTEROP': '/run/WSL/393175_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/usernom-b/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/usernom-b/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/usernom-b/.vscode-server/bin/6d62b1d5dace93a33b3a6d3eca1317bd5e15bcb1/bin/remote-cli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/MATLAB/R2026a/runtime/win64:/mnt/c/Program Files/MATLAB/R2026a/bin:/mnt/c/Program Files/MATLAB/R2024b/runtime/win64:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/Program Files (x86)/CODESYS/APInstaller/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/user/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/user/AppData/Local/Programs/MiKTeX/miktex/bin/x64/:/mnt/c/Users/user/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/user/.dotnet/tools:/mnt/c/Users/user/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/user/AppData/Local/Python/bin:/mnt/c/Users/user/AppData/Local/Python/pythoncore-3.14-64/Scripts:/snap/bin:/home/usernom-b/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/usernom-b/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-87068f4572656cdc.txt', 'LANG': 'en_US.UTF-8', 'PYTHONSTARTUP': '/home/usernom-b/.vscode-server/data/User/workspaceStorage/94f6bef7284e6b2ce1c742338b38110a/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-c249cb9b7f.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/usernom-b/ros2_ws/install/harvest_ros2:/home/usernom-b/ros2_ws/install/harvest_description:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/usernom-b/ros2_ws/build/harvest_ros2', 'QT_QPA_PLATFORM': 'xcb', 'COPILOT_DEBUG_NONCE': '449170c97df805f704771790acae177a', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib/python:/opt/ros/jazzy/opt/sdformat_vendor/lib/python:/opt/ros/jazzy/opt/gz_transport_vendor/lib/python:/opt/ros/jazzy/opt/gz_msgs_vendor/lib/python:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'OGRE_RTT_MODE': 'Copy', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/usernom-b/ros2_ws/install/harvest_description:/home/usernom-b/ros2_ws/install/harvest_ros2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up'}), 'shell': False}
+[36.781898] (harvest_ros2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[36.783019] (harvest_ros2) StdoutLine: {'line': b'-- Installing: /home/usernom-b/ros2_ws/install/harvest_ros2/lib/harvest_ros2/fk_node\n'}
+[36.788161] (-) TimerEvent: {}
+[36.791802] (harvest_ros2) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/usernom-b/ros2_ws/install/harvest_ros2/lib/harvest_ros2/fk_node" to ""\n'}
+[36.792225] (harvest_ros2) StdoutLine: {'line': b'-- Installing: /home/usernom-b/ros2_ws/install/harvest_ros2/lib/harvest_ros2/ik_node\n'}
+[36.800851] (harvest_ros2) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/usernom-b/ros2_ws/install/harvest_ros2/lib/harvest_ros2/ik_node" to ""\n'}
+[36.802412] (harvest_ros2) StdoutLine: {'line': b'-- Installing: /home/usernom-b/ros2_ws/install/harvest_ros2/share/ament_index/resource_index/package_run_dependencies/harvest_ros2\n'}
+[36.803225] (harvest_ros2) StdoutLine: {'line': b'-- Installing: /home/usernom-b/ros2_ws/install/harvest_ros2/share/ament_index/resource_index/parent_prefix_path/harvest_ros2\n'}
+[36.804797] (harvest_ros2) StdoutLine: {'line': b'-- Installing: /home/usernom-b/ros2_ws/install/harvest_ros2/share/harvest_ros2/environment/ament_prefix_path.sh\n'}
+[36.805350] (harvest_ros2) StdoutLine: {'line': b'-- Installing: /home/usernom-b/ros2_ws/install/harvest_ros2/share/harvest_ros2/environment/ament_prefix_path.dsv\n'}
+[36.805808] (harvest_ros2) StdoutLine: {'line': b'-- Installing: /home/usernom-b/ros2_ws/install/harvest_ros2/share/harvest_ros2/environment/path.sh\n'}
+[36.806374] (harvest_ros2) StdoutLine: {'line': b'-- Installing: /home/usernom-b/ros2_ws/install/harvest_ros2/share/harvest_ros2/environment/path.dsv\n'}
+[36.806628] (harvest_ros2) StdoutLine: {'line': b'-- Installing: /home/usernom-b/ros2_ws/install/harvest_ros2/share/harvest_ros2/local_setup.bash\n'}
+[36.807310] (harvest_ros2) StdoutLine: {'line': b'-- Installing: /home/usernom-b/ros2_ws/install/harvest_ros2/share/harvest_ros2/local_setup.sh\n'}
+[36.807560] (harvest_ros2) StdoutLine: {'line': b'-- Installing: /home/usernom-b/ros2_ws/install/harvest_ros2/share/harvest_ros2/local_setup.zsh\n'}
+[36.808025] (harvest_ros2) StdoutLine: {'line': b'-- Installing: /home/usernom-b/ros2_ws/install/harvest_ros2/share/harvest_ros2/local_setup.dsv\n'}
+[36.808239] (harvest_ros2) StdoutLine: {'line': b'-- Installing: /home/usernom-b/ros2_ws/install/harvest_ros2/share/harvest_ros2/package.dsv\n'}
+[36.808865] (harvest_ros2) StdoutLine: {'line': b'-- Installing: /home/usernom-b/ros2_ws/install/harvest_ros2/share/ament_index/resource_index/packages/harvest_ros2\n'}
+[36.809561] (harvest_ros2) StdoutLine: {'line': b'-- Installing: /home/usernom-b/ros2_ws/install/harvest_ros2/share/harvest_ros2/cmake/harvest_ros2Config.cmake\n'}
+[36.810416] (harvest_ros2) StdoutLine: {'line': b'-- Installing: /home/usernom-b/ros2_ws/install/harvest_ros2/share/harvest_ros2/cmake/harvest_ros2Config-version.cmake\n'}
+[36.810723] (harvest_ros2) StdoutLine: {'line': b'-- Installing: /home/usernom-b/ros2_ws/install/harvest_ros2/share/harvest_ros2/package.xml\n'}
+[36.813240] (harvest_ros2) CommandEnded: {'returncode': 0}
+[36.843685] (harvest_ros2) JobEnded: {'identifier': 'harvest_ros2', 'rc': 0}
+[36.846689] (-) EventReactorShutdown: {}

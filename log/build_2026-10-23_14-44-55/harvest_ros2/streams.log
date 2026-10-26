@@ -1,0 +1,66 @@
+[0.137s] Invoking command in '/home/usernom-b/ros2_ws/build/harvest_ros2': CMAKE_PREFIX_PATH=/home/usernom-b/ros2_ws/install/harvest_description:/home/usernom-b/ros2_ws/install/harvest_ros2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake /home/usernom-b/ros2_ws/src/harvest_ros2/harvest_ros2 -DCMAKE_INSTALL_PREFIX=/home/usernom-b/ros2_ws/install/harvest_ros2
+[0.473s] -- The C compiler identification is GNU 13.3.0
+[2.249s] -- The CXX compiler identification is GNU 13.3.0
+[3.929s] -- Detecting C compiler ABI info
+[4.571s] -- Detecting C compiler ABI info - done
+[4.594s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.595s] -- Detecting C compile features
+[4.596s] -- Detecting C compile features - done
+[4.796s] -- Detecting CXX compiler ABI info
+[5.443s] -- Detecting CXX compiler ABI info - done
+[5.468s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[5.469s] -- Detecting CXX compile features
+[5.472s] -- Detecting CXX compile features - done
+[5.485s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[5.989s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[6.385s] -- Found rclcpp: 28.1.22 (/opt/ros/jazzy/share/rclcpp/cmake)
+[7.111s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[7.173s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[7.242s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.324s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.589s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[7.603s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[7.854s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[8.296s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[8.597s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[9.266s] -- Found sensor_msgs: 5.3.8 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[9.468s] -- Found trajectory_msgs: 5.3.8 (/opt/ros/jazzy/share/trajectory_msgs/cmake)
+[9.916s] -- Configuring done (9.8s)
+[10.001s] -- Generating done (0.1s)
+[10.038s] -- Build files have been written to: /home/usernom-b/ros2_ws/build/harvest_ros2
+[10.078s] Invoked command in '/home/usernom-b/ros2_ws/build/harvest_ros2' returned '0': CMAKE_PREFIX_PATH=/home/usernom-b/ros2_ws/install/harvest_description:/home/usernom-b/ros2_ws/install/harvest_ros2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake /home/usernom-b/ros2_ws/src/harvest_ros2/harvest_ros2 -DCMAKE_INSTALL_PREFIX=/home/usernom-b/ros2_ws/install/harvest_ros2
+[10.083s] Invoking command in '/home/usernom-b/ros2_ws/build/harvest_ros2': CMAKE_PREFIX_PATH=/home/usernom-b/ros2_ws/install/harvest_description:/home/usernom-b/ros2_ws/install/harvest_ros2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake --build /home/usernom-b/ros2_ws/build/harvest_ros2 -- -j16 -l16
+[10.282s] [ 16%] [32mBuilding CXX object CMakeFiles/fk_node.dir/src/kinematics_nodes/fk_node.cpp.o[0m
+[10.283s] [ 33%] [32mBuilding CXX object CMakeFiles/trajectory_planner_node.dir/src/trajectory_nodes/trajectory_planner_node.cpp.o[0m
+[10.289s] [ 50%] [32mBuilding CXX object CMakeFiles/ik_node.dir/src/kinematics_nodes/ik_node.cpp.o[0m
+[37.622s] [ 66%] [32m[1mLinking CXX executable ik_node[0m
+[37.695s] [ 83%] [32m[1mLinking CXX executable fk_node[0m
+[38.868s] [ 83%] Built target ik_node
+[38.879s] [ 83%] Built target fk_node
+[42.369s] [100%] [32m[1mLinking CXX executable trajectory_planner_node[0m
+[43.726s] [100%] Built target trajectory_planner_node
+[43.758s] Invoked command in '/home/usernom-b/ros2_ws/build/harvest_ros2' returned '0': CMAKE_PREFIX_PATH=/home/usernom-b/ros2_ws/install/harvest_description:/home/usernom-b/ros2_ws/install/harvest_ros2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake --build /home/usernom-b/ros2_ws/build/harvest_ros2 -- -j16 -l16
+[43.764s] Invoking command in '/home/usernom-b/ros2_ws/build/harvest_ros2': CMAKE_PREFIX_PATH=/home/usernom-b/ros2_ws/install/harvest_description:/home/usernom-b/ros2_ws/install/harvest_ros2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake --install /home/usernom-b/ros2_ws/build/harvest_ros2
+[43.805s] -- Install configuration: ""
+[43.808s] -- Installing: /home/usernom-b/ros2_ws/install/harvest_ros2/lib/harvest_ros2/fk_node
+[43.818s] -- Set non-toolchain portion of runtime path of "/home/usernom-b/ros2_ws/install/harvest_ros2/lib/harvest_ros2/fk_node" to ""
+[43.819s] -- Installing: /home/usernom-b/ros2_ws/install/harvest_ros2/lib/harvest_ros2/ik_node
+[43.828s] -- Set non-toolchain portion of runtime path of "/home/usernom-b/ros2_ws/install/harvest_ros2/lib/harvest_ros2/ik_node" to ""
+[43.828s] -- Installing: /home/usernom-b/ros2_ws/install/harvest_ros2/lib/harvest_ros2/trajectory_planner_node
+[43.844s] -- Set non-toolchain portion of runtime path of "/home/usernom-b/ros2_ws/install/harvest_ros2/lib/harvest_ros2/trajectory_planner_node" to ""
+[43.845s] -- Installing: /home/usernom-b/ros2_ws/install/harvest_ros2/share/ament_index/resource_index/package_run_dependencies/harvest_ros2
+[43.846s] -- Installing: /home/usernom-b/ros2_ws/install/harvest_ros2/share/ament_index/resource_index/parent_prefix_path/harvest_ros2
+[43.847s] -- Installing: /home/usernom-b/ros2_ws/install/harvest_ros2/share/harvest_ros2/environment/ament_prefix_path.sh
+[43.848s] -- Installing: /home/usernom-b/ros2_ws/install/harvest_ros2/share/harvest_ros2/environment/ament_prefix_path.dsv
+[43.848s] -- Installing: /home/usernom-b/ros2_ws/install/harvest_ros2/share/harvest_ros2/environment/path.sh
+[43.849s] -- Installing: /home/usernom-b/ros2_ws/install/harvest_ros2/share/harvest_ros2/environment/path.dsv
+[43.849s] -- Installing: /home/usernom-b/ros2_ws/install/harvest_ros2/share/harvest_ros2/local_setup.bash
+[43.850s] -- Installing: /home/usernom-b/ros2_ws/install/harvest_ros2/share/harvest_ros2/local_setup.sh
+[43.850s] -- Installing: /home/usernom-b/ros2_ws/install/harvest_ros2/share/harvest_ros2/local_setup.zsh
+[43.851s] -- Installing: /home/usernom-b/ros2_ws/install/harvest_ros2/share/harvest_ros2/local_setup.dsv
+[43.851s] -- Installing: /home/usernom-b/ros2_ws/install/harvest_ros2/share/harvest_ros2/package.dsv
+[43.852s] -- Installing: /home/usernom-b/ros2_ws/install/harvest_ros2/share/ament_index/resource_index/packages/harvest_ros2
+[43.852s] -- Installing: /home/usernom-b/ros2_ws/install/harvest_ros2/share/harvest_ros2/cmake/harvest_ros2Config.cmake
+[43.852s] -- Installing: /home/usernom-b/ros2_ws/install/harvest_ros2/share/harvest_ros2/cmake/harvest_ros2Config-version.cmake
+[43.853s] -- Installing: /home/usernom-b/ros2_ws/install/harvest_ros2/share/harvest_ros2/package.xml
+[43.857s] Invoked command in '/home/usernom-b/ros2_ws/build/harvest_ros2' returned '0': CMAKE_PREFIX_PATH=/home/usernom-b/ros2_ws/install/harvest_description:/home/usernom-b/ros2_ws/install/harvest_ros2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake --install /home/usernom-b/ros2_ws/build/harvest_ros2

@@ -1,0 +1,25 @@
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 28.1.22 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found sensor_msgs: 5.3.8 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+-- Found trajectory_msgs: 5.3.8 (/opt/ros/jazzy/share/trajectory_msgs/cmake)
+-- Configuring done (2.7s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/usernom-b/ros2_ws/build/harvest_ros2
+[ 33%] Built target fk_node
+[ 66%] Built target ik_node
+[ 83%] [32mBuilding CXX object CMakeFiles/trajectory_planner_node.dir/src/trajectory_nodes/trajectory_planner_node.cpp.o[0m
+[01m[K/home/usernom-b/ros2_ws/src/harvest_ros2/harvest_ros2/src/trajectory_nodes/trajectory_planner_node.cpp:[m[K In member function ‘[01m[Kvoid TrajectoryPlannerNode::[01;32m[Kik_callback[m[K(trajectory_msgs::msg::JointTrajectory_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/usernom-b/ros2_ws/src/harvest_ros2/harvest_ros2/src/trajectory_nodes/trajectory_planner_node.cpp:134:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst trajectory_msgs::msg::JointTrajectory_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<trajectory_msgs::msg::JointTrajectory_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kheader[m[K’
+  134 |         raw_msg.[01;31m[Kheader[m[K.stamp = this->get_clock()->now();
+      |                 [01;31m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/trajectory_planner_node.dir/build.make:76: CMakeFiles/trajectory_planner_node.dir/src/trajectory_nodes/trajectory_planner_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/trajectory_planner_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

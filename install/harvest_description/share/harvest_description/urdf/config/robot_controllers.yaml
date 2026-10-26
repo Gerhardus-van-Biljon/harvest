@@ -1,0 +1,47 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 2000  # Increased controller loop rate
+    # motion controller must evaluate the 7-phase equations at a high enough frequency to prevent discretization jitter.
+    # Broadcasts the current positions of the joints to the network
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+    # Controls all 6 degrees of freedom as a grouped trajectory segment
+    arm_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
+
+arm_controller:
+  ros__parameters:
+    joints:
+      - rail_joint
+      - base_joint
+      - shoulder_joint
+      - elbow_joint
+      - wrist_pitch_joint
+      - wrist_roll_joint
+    command_interfaces:
+      - effort
+    state_interfaces:
+      - position
+      - velocity
+    open_loop_control: false # Set to false to force Gazebo to use the PID closed-loop tracking feedback
+
+    # INJECTING PID GAINS
+    # This instructs the simulator to execute corrections using your original design parameters
+    # Kp: Drives the link quickly toward the berry cluster.
+    # <-- If too low, arm will sag; if too high, violent shaking and oscillations
+    # Ki: Fights the structural gravity drop to hit precise coordinates
+    # <-- If too low, arm will stop short of the berry coordinate; if too high, unstable drifting and overshooting
+    # Kd: Smooths out acceleration so the gripper approaches softly
+    # If too low, overshooting targets and arm will jerk aggressively; if too high, joints will be too stiff and buzz loudly.  
+    # Kd << This is the most sensitive parameter to tune, so adjust carefully.
+    
+    # Updated 
+    gains:
+      # Zeroed all 'i' gains. Softened 'p' gains to prevent bouncing. Kept 'd' high for damping.
+      rail_joint:        {p: 800.0, i: 0.0, d: 20.0}
+      base_joint:        {p: 400.0, i: 0.0, d: 15.0}
+      shoulder_joint:    {p: 800.0, i: 0.0, d: 30.0}
+      elbow_joint:       {p: 500.0, i: 0.0, d: 20.0}
+      wrist_pitch_joint: {p: 150.0, i: 0.0, d: 5.0}
+      wrist_roll_joint:  {p: 50.0,  i: 0.0, d: 1.0}

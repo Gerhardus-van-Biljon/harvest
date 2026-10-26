@@ -1,0 +1,236 @@
+[1.079s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.079s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7c4c06d8b350>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7c4c06edf4a0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7c4c06edf4a0>>, mixin_verb=('build',))
+[1.298s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.298s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.299s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.299s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.299s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.299s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.299s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/usernom-b/ros2_ws'
+[1.299s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.299s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.300s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.300s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.300s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.300s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.300s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.300s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.300s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.359s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.359s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.360s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.360s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.360s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.360s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.360s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.360s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.361s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.361s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.361s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.361s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.362s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.362s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.362s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.362s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.362s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.362s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.363s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.363s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.363s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.363s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.363s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.363s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.363s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.363s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.363s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.363s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/harvest_ros2) by extensions ['ignore', 'ignore_ament_install']
+[1.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/harvest_ros2) by extension 'ignore'
+[1.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/harvest_ros2) by extension 'ignore_ament_install'
+[1.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/harvest_ros2) by extensions ['colcon_pkg']
+[1.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/harvest_ros2) by extension 'colcon_pkg'
+[1.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/harvest_ros2) by extensions ['colcon_meta']
+[1.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/harvest_ros2) by extension 'colcon_meta'
+[1.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/harvest_ros2) by extensions ['ros']
+[1.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/harvest_ros2) by extension 'ros'
+[1.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/harvest_ros2) by extensions ['cmake', 'python']
+[1.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/harvest_ros2) by extension 'cmake'
+[1.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/harvest_ros2) by extension 'python'
+[1.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/harvest_ros2) by extensions ['python_setup_py']
+[1.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/harvest_ros2) by extension 'python_setup_py'
+[1.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/harvest_ros2/build) by extensions ['ignore', 'ignore_ament_install']
+[1.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/harvest_ros2/build) by extension 'ignore'
+[1.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/harvest_ros2/build) ignored
+[1.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/harvest_ros2/harvest_description) by extensions ['ignore', 'ignore_ament_install']
+[1.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/harvest_ros2/harvest_description) by extension 'ignore'
+[1.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/harvest_ros2/harvest_description) by extension 'ignore_ament_install'
+[1.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/harvest_ros2/harvest_description) by extensions ['colcon_pkg']
+[1.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/harvest_ros2/harvest_description) by extension 'colcon_pkg'
+[1.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/harvest_ros2/harvest_description) by extensions ['colcon_meta']
+[1.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/harvest_ros2/harvest_description) by extension 'colcon_meta'
+[1.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/harvest_ros2/harvest_description) by extensions ['ros']
+[1.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/harvest_ros2/harvest_description) by extension 'ros'
+[1.380s] DEBUG:colcon.colcon_core.package_identification:Package 'src/harvest_ros2/harvest_description' with type 'ros.ament_cmake' and name 'harvest_description'
+[1.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/harvest_ros2/harvest_ros2) by extensions ['ignore', 'ignore_ament_install']
+[1.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/harvest_ros2/harvest_ros2) by extension 'ignore'
+[1.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/harvest_ros2/harvest_ros2) by extension 'ignore_ament_install'
+[1.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/harvest_ros2/harvest_ros2) by extensions ['colcon_pkg']
+[1.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/harvest_ros2/harvest_ros2) by extension 'colcon_pkg'
+[1.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/harvest_ros2/harvest_ros2) by extensions ['colcon_meta']
+[1.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/harvest_ros2/harvest_ros2) by extension 'colcon_meta'
+[1.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/harvest_ros2/harvest_ros2) by extensions ['ros']
+[1.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/harvest_ros2/harvest_ros2) by extension 'ros'
+[1.384s] DEBUG:colcon.colcon_core.package_identification:Package 'src/harvest_ros2/harvest_ros2' with type 'ros.ament_cmake' and name 'harvest_ros2'
+[1.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/harvest_ros2/install) by extensions ['ignore', 'ignore_ament_install']
+[1.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/harvest_ros2/install) by extension 'ignore'
+[1.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/harvest_ros2/install) ignored
+[1.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/harvest_ros2/log) by extensions ['ignore', 'ignore_ament_install']
+[1.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/harvest_ros2/log) by extension 'ignore'
+[1.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/harvest_ros2/log) ignored
+[1.385s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.385s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.385s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.386s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.386s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.443s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.443s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.447s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/usernom-b/ros2_ws/install/harvest_ros2' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.447s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/usernom-b/ros2_ws/install/harvest_description' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.448s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/usernom-b/ros2_ws/install/harvest_ros2' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.448s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/usernom-b/ros2_ws/install/harvest_description' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.451s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/usernom-b/ros2_ws/install
+[1.455s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 437 installed packages in /opt/ros/jazzy
+[1.458s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.575s] Level 5:colcon.colcon_core.verb:set package 'harvest_description' build argument 'cmake_args' from command line to 'None'
+[1.575s] Level 5:colcon.colcon_core.verb:set package 'harvest_description' build argument 'cmake_target' from command line to 'None'
+[1.575s] Level 5:colcon.colcon_core.verb:set package 'harvest_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.575s] Level 5:colcon.colcon_core.verb:set package 'harvest_description' build argument 'cmake_clean_cache' from command line to 'False'
+[1.575s] Level 5:colcon.colcon_core.verb:set package 'harvest_description' build argument 'cmake_clean_first' from command line to 'False'
+[1.575s] Level 5:colcon.colcon_core.verb:set package 'harvest_description' build argument 'cmake_force_configure' from command line to 'False'
+[1.575s] Level 5:colcon.colcon_core.verb:set package 'harvest_description' build argument 'ament_cmake_args' from command line to 'None'
+[1.575s] Level 5:colcon.colcon_core.verb:set package 'harvest_description' build argument 'catkin_cmake_args' from command line to 'None'
+[1.575s] Level 5:colcon.colcon_core.verb:set package 'harvest_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.575s] DEBUG:colcon.colcon_core.verb:Building package 'harvest_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/usernom-b/ros2_ws/build/harvest_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/usernom-b/ros2_ws/install/harvest_description', 'merge_install': False, 'path': '/home/usernom-b/ros2_ws/src/harvest_ros2/harvest_description', 'symlink_install': False, 'test_result_base': None}
+[1.576s] Level 5:colcon.colcon_core.verb:set package 'harvest_ros2' build argument 'cmake_args' from command line to 'None'
+[1.576s] Level 5:colcon.colcon_core.verb:set package 'harvest_ros2' build argument 'cmake_target' from command line to 'None'
+[1.576s] Level 5:colcon.colcon_core.verb:set package 'harvest_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.576s] Level 5:colcon.colcon_core.verb:set package 'harvest_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[1.576s] Level 5:colcon.colcon_core.verb:set package 'harvest_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[1.576s] Level 5:colcon.colcon_core.verb:set package 'harvest_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[1.576s] Level 5:colcon.colcon_core.verb:set package 'harvest_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[1.576s] Level 5:colcon.colcon_core.verb:set package 'harvest_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[1.576s] Level 5:colcon.colcon_core.verb:set package 'harvest_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.577s] DEBUG:colcon.colcon_core.verb:Building package 'harvest_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/usernom-b/ros2_ws/build/harvest_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/usernom-b/ros2_ws/install/harvest_ros2', 'merge_install': False, 'path': '/home/usernom-b/ros2_ws/src/harvest_ros2/harvest_ros2', 'symlink_install': False, 'test_result_base': None}
+[1.577s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.579s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.579s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/usernom-b/ros2_ws/src/harvest_ros2/harvest_description' with build type 'ament_cmake'
+[1.580s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/usernom-b/ros2_ws/src/harvest_ros2/harvest_description'
+[1.601s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.602s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.602s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.635s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/usernom-b/ros2_ws/build/harvest_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/usernom-b/ros2_ws/src/harvest_ros2/harvest_description -DCMAKE_INSTALL_PREFIX=/home/usernom-b/ros2_ws/install/harvest_description
+[11.730s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/usernom-b/ros2_ws/build/harvest_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/usernom-b/ros2_ws/src/harvest_ros2/harvest_description -DCMAKE_INSTALL_PREFIX=/home/usernom-b/ros2_ws/install/harvest_description
+[11.732s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/usernom-b/ros2_ws/build/harvest_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/usernom-b/ros2_ws/build/harvest_description -- -j16 -l16
+[11.822s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/usernom-b/ros2_ws/build/harvest_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/usernom-b/ros2_ws/build/harvest_description -- -j16 -l16
+[11.844s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/usernom-b/ros2_ws/build/harvest_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/usernom-b/ros2_ws/build/harvest_description
+[11.985s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(harvest_description)
+[11.987s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/usernom-b/ros2_ws/build/harvest_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/usernom-b/ros2_ws/build/harvest_description
+[12.000s] Level 1:colcon.colcon_core.environment:checking '/home/usernom-b/ros2_ws/install/harvest_description' for CMake module files
+[12.001s] Level 1:colcon.colcon_core.environment:checking '/home/usernom-b/ros2_ws/install/harvest_description' for CMake config files
+[12.002s] Level 1:colcon.colcon_core.shell:create_environment_hook('harvest_description', 'cmake_prefix_path')
+[12.003s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/usernom-b/ros2_ws/install/harvest_description/share/harvest_description/hook/cmake_prefix_path.ps1'
+[12.006s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/usernom-b/ros2_ws/install/harvest_description/share/harvest_description/hook/cmake_prefix_path.dsv'
+[12.007s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/usernom-b/ros2_ws/install/harvest_description/share/harvest_description/hook/cmake_prefix_path.sh'
+[12.010s] Level 1:colcon.colcon_core.environment:checking '/home/usernom-b/ros2_ws/install/harvest_description/bin'
+[12.010s] Level 1:colcon.colcon_core.environment:checking '/home/usernom-b/ros2_ws/install/harvest_description/lib/pkgconfig/harvest_description.pc'
+[12.010s] Level 1:colcon.colcon_core.environment:checking '/home/usernom-b/ros2_ws/install/harvest_description/lib/python3.12/site-packages'
+[12.011s] Level 1:colcon.colcon_core.environment:checking '/home/usernom-b/ros2_ws/install/harvest_description/bin'
+[12.012s] INFO:colcon.colcon_core.shell:Creating package script '/home/usernom-b/ros2_ws/install/harvest_description/share/harvest_description/package.ps1'
+[12.014s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/usernom-b/ros2_ws/install/harvest_description/share/harvest_description/package.dsv'
+[12.016s] INFO:colcon.colcon_core.shell:Creating package script '/home/usernom-b/ros2_ws/install/harvest_description/share/harvest_description/package.sh'
+[12.018s] INFO:colcon.colcon_core.shell:Creating package script '/home/usernom-b/ros2_ws/install/harvest_description/share/harvest_description/package.bash'
+[12.020s] INFO:colcon.colcon_core.shell:Creating package script '/home/usernom-b/ros2_ws/install/harvest_description/share/harvest_description/package.zsh'
+[12.021s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/usernom-b/ros2_ws/install/harvest_description/share/colcon-core/packages/harvest_description)
+[12.023s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(harvest_description)
+[12.024s] Level 1:colcon.colcon_core.environment:checking '/home/usernom-b/ros2_ws/install/harvest_description' for CMake module files
+[12.025s] Level 1:colcon.colcon_core.environment:checking '/home/usernom-b/ros2_ws/install/harvest_description' for CMake config files
+[12.025s] Level 1:colcon.colcon_core.shell:create_environment_hook('harvest_description', 'cmake_prefix_path')
+[12.025s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/usernom-b/ros2_ws/install/harvest_description/share/harvest_description/hook/cmake_prefix_path.ps1'
+[12.026s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/usernom-b/ros2_ws/install/harvest_description/share/harvest_description/hook/cmake_prefix_path.dsv'
+[12.027s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/usernom-b/ros2_ws/install/harvest_description/share/harvest_description/hook/cmake_prefix_path.sh'
+[12.028s] Level 1:colcon.colcon_core.environment:checking '/home/usernom-b/ros2_ws/install/harvest_description/bin'
+[12.028s] Level 1:colcon.colcon_core.environment:checking '/home/usernom-b/ros2_ws/install/harvest_description/lib/pkgconfig/harvest_description.pc'
+[12.029s] Level 1:colcon.colcon_core.environment:checking '/home/usernom-b/ros2_ws/install/harvest_description/lib/python3.12/site-packages'
+[12.030s] Level 1:colcon.colcon_core.environment:checking '/home/usernom-b/ros2_ws/install/harvest_description/bin'
+[12.030s] INFO:colcon.colcon_core.shell:Creating package script '/home/usernom-b/ros2_ws/install/harvest_description/share/harvest_description/package.ps1'
+[12.031s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/usernom-b/ros2_ws/install/harvest_description/share/harvest_description/package.dsv'
+[12.033s] INFO:colcon.colcon_core.shell:Creating package script '/home/usernom-b/ros2_ws/install/harvest_description/share/harvest_description/package.sh'
+[12.034s] INFO:colcon.colcon_core.shell:Creating package script '/home/usernom-b/ros2_ws/install/harvest_description/share/harvest_description/package.bash'
+[12.035s] INFO:colcon.colcon_core.shell:Creating package script '/home/usernom-b/ros2_ws/install/harvest_description/share/harvest_description/package.zsh'
+[12.037s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/usernom-b/ros2_ws/install/harvest_description/share/colcon-core/packages/harvest_description)
+[12.038s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/usernom-b/ros2_ws/src/harvest_ros2/harvest_ros2' with build type 'ament_cmake'
+[12.039s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/usernom-b/ros2_ws/src/harvest_ros2/harvest_ros2'
+[12.039s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[12.040s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[12.159s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/usernom-b/ros2_ws/build/harvest_ros2': CMAKE_PREFIX_PATH=/home/usernom-b/ros2_ws/install/harvest_description:/home/usernom-b/ros2_ws/install/harvest_ros2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake /home/usernom-b/ros2_ws/src/harvest_ros2/harvest_ros2 -DCMAKE_INSTALL_PREFIX=/home/usernom-b/ros2_ws/install/harvest_ros2
+[19.949s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/usernom-b/ros2_ws/build/harvest_ros2' returned '0': CMAKE_PREFIX_PATH=/home/usernom-b/ros2_ws/install/harvest_description:/home/usernom-b/ros2_ws/install/harvest_ros2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake /home/usernom-b/ros2_ws/src/harvest_ros2/harvest_ros2 -DCMAKE_INSTALL_PREFIX=/home/usernom-b/ros2_ws/install/harvest_ros2
+[19.951s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/usernom-b/ros2_ws/build/harvest_ros2': CMAKE_PREFIX_PATH=/home/usernom-b/ros2_ws/install/harvest_description:/home/usernom-b/ros2_ws/install/harvest_ros2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake --build /home/usernom-b/ros2_ws/build/harvest_ros2 -- -j16 -l16
+[45.156s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/usernom-b/ros2_ws/build/harvest_ros2' returned '0': CMAKE_PREFIX_PATH=/home/usernom-b/ros2_ws/install/harvest_description:/home/usernom-b/ros2_ws/install/harvest_ros2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake --build /home/usernom-b/ros2_ws/build/harvest_ros2 -- -j16 -l16
+[45.159s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/usernom-b/ros2_ws/build/harvest_ros2': CMAKE_PREFIX_PATH=/home/usernom-b/ros2_ws/install/harvest_description:/home/usernom-b/ros2_ws/install/harvest_ros2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake --install /home/usernom-b/ros2_ws/build/harvest_ros2
+[45.220s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(harvest_ros2)
+[45.221s] Level 1:colcon.colcon_core.environment:checking '/home/usernom-b/ros2_ws/install/harvest_ros2' for CMake module files
+[45.223s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/usernom-b/ros2_ws/build/harvest_ros2' returned '0': CMAKE_PREFIX_PATH=/home/usernom-b/ros2_ws/install/harvest_description:/home/usernom-b/ros2_ws/install/harvest_ros2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake --install /home/usernom-b/ros2_ws/build/harvest_ros2
+[45.224s] Level 1:colcon.colcon_core.environment:checking '/home/usernom-b/ros2_ws/install/harvest_ros2' for CMake config files
+[45.225s] Level 1:colcon.colcon_core.shell:create_environment_hook('harvest_ros2', 'cmake_prefix_path')
+[45.225s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/usernom-b/ros2_ws/install/harvest_ros2/share/harvest_ros2/hook/cmake_prefix_path.ps1'
+[45.227s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/usernom-b/ros2_ws/install/harvest_ros2/share/harvest_ros2/hook/cmake_prefix_path.dsv'
+[45.227s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/usernom-b/ros2_ws/install/harvest_ros2/share/harvest_ros2/hook/cmake_prefix_path.sh'
+[45.229s] Level 1:colcon.colcon_core.environment:checking '/home/usernom-b/ros2_ws/install/harvest_ros2/lib'
+[45.229s] Level 1:colcon.colcon_core.environment:checking '/home/usernom-b/ros2_ws/install/harvest_ros2/bin'
+[45.229s] Level 1:colcon.colcon_core.environment:checking '/home/usernom-b/ros2_ws/install/harvest_ros2/lib/pkgconfig/harvest_ros2.pc'
+[45.230s] Level 1:colcon.colcon_core.environment:checking '/home/usernom-b/ros2_ws/install/harvest_ros2/lib/python3.12/site-packages'
+[45.231s] Level 1:colcon.colcon_core.environment:checking '/home/usernom-b/ros2_ws/install/harvest_ros2/bin'
+[45.231s] INFO:colcon.colcon_core.shell:Creating package script '/home/usernom-b/ros2_ws/install/harvest_ros2/share/harvest_ros2/package.ps1'
+[45.232s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/usernom-b/ros2_ws/install/harvest_ros2/share/harvest_ros2/package.dsv'
+[45.233s] INFO:colcon.colcon_core.shell:Creating package script '/home/usernom-b/ros2_ws/install/harvest_ros2/share/harvest_ros2/package.sh'
+[45.234s] INFO:colcon.colcon_core.shell:Creating package script '/home/usernom-b/ros2_ws/install/harvest_ros2/share/harvest_ros2/package.bash'
+[45.235s] INFO:colcon.colcon_core.shell:Creating package script '/home/usernom-b/ros2_ws/install/harvest_ros2/share/harvest_ros2/package.zsh'
+[45.235s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/usernom-b/ros2_ws/install/harvest_ros2/share/colcon-core/packages/harvest_ros2)
+[45.237s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(harvest_ros2)
+[45.238s] Level 1:colcon.colcon_core.environment:checking '/home/usernom-b/ros2_ws/install/harvest_ros2' for CMake module files
+[45.239s] Level 1:colcon.colcon_core.environment:checking '/home/usernom-b/ros2_ws/install/harvest_ros2' for CMake config files
+[45.239s] Level 1:colcon.colcon_core.shell:create_environment_hook('harvest_ros2', 'cmake_prefix_path')
+[45.239s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/usernom-b/ros2_ws/install/harvest_ros2/share/harvest_ros2/hook/cmake_prefix_path.ps1'
+[45.240s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/usernom-b/ros2_ws/install/harvest_ros2/share/harvest_ros2/hook/cmake_prefix_path.dsv'
+[45.241s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/usernom-b/ros2_ws/install/harvest_ros2/share/harvest_ros2/hook/cmake_prefix_path.sh'
+[45.242s] Level 1:colcon.colcon_core.environment:checking '/home/usernom-b/ros2_ws/install/harvest_ros2/lib'
+[45.242s] Level 1:colcon.colcon_core.environment:checking '/home/usernom-b/ros2_ws/install/harvest_ros2/bin'
+[45.242s] Level 1:colcon.colcon_core.environment:checking '/home/usernom-b/ros2_ws/install/harvest_ros2/lib/pkgconfig/harvest_ros2.pc'
+[45.243s] Level 1:colcon.colcon_core.environment:checking '/home/usernom-b/ros2_ws/install/harvest_ros2/lib/python3.12/site-packages'
+[45.243s] Level 1:colcon.colcon_core.environment:checking '/home/usernom-b/ros2_ws/install/harvest_ros2/bin'
+[45.244s] INFO:colcon.colcon_core.shell:Creating package script '/home/usernom-b/ros2_ws/install/harvest_ros2/share/harvest_ros2/package.ps1'
+[45.245s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/usernom-b/ros2_ws/install/harvest_ros2/share/harvest_ros2/package.dsv'
+[45.246s] INFO:colcon.colcon_core.shell:Creating package script '/home/usernom-b/ros2_ws/install/harvest_ros2/share/harvest_ros2/package.sh'
+[45.247s] INFO:colcon.colcon_core.shell:Creating package script '/home/usernom-b/ros2_ws/install/harvest_ros2/share/harvest_ros2/package.bash'
+[45.248s] INFO:colcon.colcon_core.shell:Creating package script '/home/usernom-b/ros2_ws/install/harvest_ros2/share/harvest_ros2/package.zsh'
+[45.249s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/usernom-b/ros2_ws/install/harvest_ros2/share/colcon-core/packages/harvest_ros2)
+[45.249s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[45.251s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[45.251s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[45.252s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[45.369s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[45.370s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[45.370s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[45.370s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[45.377s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[45.377s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[45.378s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/usernom-b/ros2_ws/install/local_setup.ps1'
+[45.380s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/usernom-b/ros2_ws/install/_local_setup_util_ps1.py'
+[45.383s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/usernom-b/ros2_ws/install/setup.ps1'
+[45.386s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/usernom-b/ros2_ws/install/local_setup.sh'
+[45.388s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/usernom-b/ros2_ws/install/_local_setup_util_sh.py'
+[45.389s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/usernom-b/ros2_ws/install/setup.sh'
+[45.406s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/usernom-b/ros2_ws/install/local_setup.bash'
+[45.422s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/usernom-b/ros2_ws/install/setup.bash'
+[45.426s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/usernom-b/ros2_ws/install/local_setup.zsh'
+[45.428s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/usernom-b/ros2_ws/install/setup.zsh'

@@ -1,0 +1,52 @@
+[0.105s] Invoking command in '/home/usernom-b/ros2_ws/build/harvest_ros2': AMENT_PREFIX_PATH=/home/usernom-b/ros2_ws/install/harvest_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/usernom-b/ros2_ws/install/harvest_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake --build /home/usernom-b/ros2_ws/build/harvest_ros2 -- -j16 -l16
+[0.254s] [ 66%] Built target fk_node
+[0.254s] [ 66%] Built target ik_node
+[0.255s] [ 83%] [32mBuilding CXX object CMakeFiles/trajectory_planner_node.dir/src/trajectory_nodes/trajectory_planner_node.cpp.o[0m
+[6.162s] [01m[K/home/usernom-b/ros2_ws/src/harvest_ros2/harvest_ros2/src/trajectory_nodes/trajectory_planner_node.cpp:219:9:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kif[m[K’
+[6.162s]   219 |         [01;31m[Kif[m[K (!smooth_msg.points.empty()) {
+[6.162s]       |         [01;31m[K^~[m[K
+[6.175s] [01m[K/home/usernom-b/ros2_ws/src/harvest_ros2/harvest_ros2/src/trajectory_nodes/trajectory_planner_node.cpp:228:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ksmooth_trajectory_pub_[m[K’ does not name a type
+[6.176s]   228 |         [01;31m[Ksmooth_trajectory_pub_[m[K->publish(smooth_msg);
+[6.177s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.177s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+[6.177s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:175[m[K,
+[6.177s]                  from [01m[K/home/usernom-b/ros2_ws/src/harvest_ros2/harvest_ros2/src/trajectory_nodes/trajectory_planner_node.cpp:7[m[K:
+[6.177s] [01m[K/home/usernom-b/ros2_ws/src/harvest_ros2/harvest_ros2/src/trajectory_nodes/trajectory_planner_node.cpp:229:9:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kdo[m[K’
+[6.177s]   229 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Synchronized smooth S-Curve trajectory successfully broadcasted over %.2f seconds.", max_total_time);
+[6.177s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[6.177s] [01m[K/home/usernom-b/ros2_ws/src/harvest_ros2/harvest_ros2/src/trajectory_nodes/trajectory_planner_node.cpp:229:9:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kwhile[m[K’
+[6.178s]   229 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Synchronized smooth S-Curve trajectory successfully broadcasted over %.2f seconds.", max_total_time);
+[6.178s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[6.201s] [01m[K/home/usernom-b/ros2_ws/src/harvest_ros2/harvest_ros2/src/trajectory_nodes/trajectory_planner_node.cpp:[m[K In constructor ‘[01m[KTrajectoryPlannerNode::[01;32m[KTrajectoryPlannerNode[m[K()[m[K’:
+[6.201s] [01m[K/home/usernom-b/ros2_ws/src/harvest_ros2/harvest_ros2/src/trajectory_nodes/trajectory_planner_node.cpp:33:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kraw_joint_sub_[m[K’ was not declared in this scope
+[6.201s]    33 |         [01;31m[Kraw_joint_sub_[m[K = this->create_subscription<trajectory_msgs::msg::JointTrajectory>(
+[6.201s]       |         [01;31m[K^~~~~~~~~~~~~~[m[K
+[6.297s] [01m[K/home/usernom-b/ros2_ws/src/harvest_ros2/harvest_ros2/src/trajectory_nodes/trajectory_planner_node.cpp:37:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint_state_sub_[m[K’ was not declared in this scope; did you mean ‘[01m[Kjoint_state_callback[m[K’?
+[6.297s]    37 |         [01;31m[Kjoint_state_sub_[m[K = this->create_subscription<sensor_msgs::msg::JointState>(
+[6.297s]       |         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[6.297s]       |         [32m[Kjoint_state_callback[m[K
+[6.383s] [01m[K/home/usernom-b/ros2_ws/src/harvest_ros2/harvest_ros2/src/trajectory_nodes/trajectory_planner_node.cpp:40:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ksmooth_trajectory_pub_[m[K’ was not declared in this scope
+[6.383s]    40 |         [01;31m[Ksmooth_trajectory_pub_[m[K = this->create_publisher<trajectory_msgs::msg::JointTrajectory>(
+[6.383s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.415s] [01m[K/home/usernom-b/ros2_ws/src/harvest_ros2/harvest_ros2/src/trajectory_nodes/trajectory_planner_node.cpp:44:9:[m[K [01;31m[Kerror: [m[K‘[01m[Klatest_joint_positions_[m[K’ was not declared in this scope
+[6.416s]    44 |         [01;31m[Klatest_joint_positions_[m[K.fill(0.0);
+[6.416s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.455s] [01m[K/home/usernom-b/ros2_ws/src/harvest_ros2/harvest_ros2/src/trajectory_nodes/trajectory_planner_node.cpp:[m[K In member function ‘[01m[Kvoid TrajectoryPlannerNode::[01;32m[Kjoint_state_callback[m[K(sensor_msgs::msg::JointState_<std::allocator<void> >::SharedPtr)[m[K’:
+[6.455s] [01m[K/home/usernom-b/ros2_ws/src/harvest_ros2/harvest_ros2/src/trajectory_nodes/trajectory_planner_node.cpp:121:21:[m[K [01;31m[Kerror: [m[K‘[01m[Klatest_joint_positions_[m[K’ was not declared in this scope
+[6.455s]   121 |                     [01;31m[Klatest_joint_positions_[m[K[i] = msg->position[index];
+[6.455s]       |                     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.488s] [01m[K/home/usernom-b/ros2_ws/src/harvest_ros2/harvest_ros2/src/trajectory_nodes/trajectory_planner_node.cpp:[m[K In member function ‘[01m[Kvoid TrajectoryPlannerNode::[01;32m[Kik_callback[m[K(trajectory_msgs::msg::JointTrajectory_<std::allocator<void> >::SharedPtr)[m[K’:
+[6.488s] [01m[K/home/usernom-b/ros2_ws/src/harvest_ros2/harvest_ros2/src/trajectory_nodes/trajectory_planner_node.cpp:141:60:[m[K [01;31m[Kerror: [m[K‘[01m[Klatest_joint_positions_[m[K’ was not declared in this scope
+[6.488s]   141 |         std::array<double, NUM_JOINTS> current_positions = [01;31m[Klatest_joint_positions_[m[K;
+[6.489s]       |                                                            [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.495s] [01m[K/home/usernom-b/ros2_ws/src/harvest_ros2/harvest_ros2/src/trajectory_nodes/trajectory_planner_node.cpp:[m[K At global scope:
+[6.495s] [01m[K/home/usernom-b/ros2_ws/src/harvest_ros2/harvest_ros2/src/trajectory_nodes/trajectory_planner_node.cpp:232:5:[m[K [01;31m[Kerror: [m[Kspecializing member ‘[01m[Krclcpp::Subscription<trajectory_msgs::msg::JointTrajectory_<std::allocator<void> >, std::allocator<void>, trajectory_msgs::msg::JointTrajectory_<std::allocator<void> >, trajectory_msgs::msg::JointTrajectory_<std::allocator<void> >, rclcpp::message_memory_strategy::MessageMemoryStrategy<trajectory_msgs::msg::JointTrajectory_<std::allocator<void> >, std::allocator<void> > >::SharedPtr[m[K’ requires ‘[01m[Ktemplate<>[m[K’ syntax
+[6.495s]   232 |     [01;31m[Krclcpp[m[K::Subscription<trajectory_msgs::msg::JointTrajectory>::SharedPtr raw_joint_sub_;
+[6.496s]       |     [01;31m[K^~~~~~[m[K
+[6.502s] [01m[K/home/usernom-b/ros2_ws/src/harvest_ros2/harvest_ros2/src/trajectory_nodes/trajectory_planner_node.cpp:236:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+[6.502s]   236 | [01;31m[K}[m[K;
+[6.502s]       | [01;31m[K^[m[K
+[12.912s] gmake[2]: *** [CMakeFiles/trajectory_planner_node.dir/build.make:76: CMakeFiles/trajectory_planner_node.dir/src/trajectory_nodes/trajectory_planner_node.cpp.o] Error 1
+[12.912s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/trajectory_planner_node.dir/all] Error 2
+[12.912s] gmake: *** [Makefile:146: all] Error 2
+[12.918s] Invoked command in '/home/usernom-b/ros2_ws/build/harvest_ros2' returned '2': AMENT_PREFIX_PATH=/home/usernom-b/ros2_ws/install/harvest_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/usernom-b/ros2_ws/install/harvest_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake --build /home/usernom-b/ros2_ws/build/harvest_ros2 -- -j16 -l16
